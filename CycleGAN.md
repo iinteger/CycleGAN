@@ -33,6 +33,7 @@
   * G만 사용할 목적으로 단방향만 학습을 진행하면 결과가 더 나빠졌다고 함
 
     
+<br/>
 
 * ### Loss Function
 
@@ -54,14 +55,14 @@
 
   
 
+<br/>
 
 * ### Experiment
 
-  <img src="images/cyclegan9.png"/>
-
+  <img src="images/cyclegan9.png"/><br/>
   
 
-  <img src="images/cyclegan5.png"/>
+  <img src="images/cyclegan5.png"/><br/>
 
   
 
@@ -74,7 +75,7 @@
     * Painting -> Photo 변환작업시 색 변질이 많이 발생했는데, input과  output을 직접 비교하는 Identity Loss를 추가하였더니 색이 많이 보존됨. (Pixel loss랑 비슷한듯)
 
       
-
+  <br/>
   <img src="images/cyclegan8.png"/>
 
   * 다만 사과를 오렌지로 바꿔도 **전체적인 모양**은 바뀌지 않았고, 개-고양이 변환이나 기타 몇몇 Task에서 한계점이 나타남. 
